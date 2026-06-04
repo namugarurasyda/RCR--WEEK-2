@@ -8,8 +8,9 @@ import React from 'react'
 //         </div>
 //     )
 // }
+// Arrow function
 const Greet = ()  =>{
-    return<h1> Hello RCR week 2</h1>
+    return<h1> Hello RCR week  with arrow function</h1>
 }
 
  export default Greet
