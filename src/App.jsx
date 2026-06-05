@@ -6,6 +6,7 @@ import heroImg from   './assets/hero.png'
 import './App.css'
 import Hello from './components/hello'
 import Welcome from './components/Welcome'
+import Message from './components/mesaage'
 
 
 class App extends Component {
@@ -16,7 +17,9 @@ class App extends Component {
       <div className="App">
       <Greet class ="Syda"/> <br />
       <Welcome class = "Lamine" />
-      <Hello name="John" />
+      <Hello name="AnsuFati" />
+      <Message />
+
       </div>
     )
   } 
