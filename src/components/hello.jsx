@@ -7,7 +7,9 @@ const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
-    <App />
+    <Routes>
+      <Route path="/" element={<App />} />
+    </Routes>
   </BrowserRouter>
 );
 const Hello = props => {
