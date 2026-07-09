@@ -1,8 +1,12 @@
 import React from 'react'
+import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router";
 
 const Hello = props => {
     console.log(props)
+
+    
+
     return (
         <div>
             <h1>Hello, welcome to React with Javascript!</h1>
