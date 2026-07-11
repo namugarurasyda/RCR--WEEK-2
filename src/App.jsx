@@ -16,6 +16,10 @@ class App extends Component {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<div>Home</div>} />
+          <Route path="/greet" element={<Greet />} />
+          <Route path="/hello" element={<Hello />} />
+          <Route path="/welcome" element={<Welcome />} />
+          <Route path="/message" element={<Message />} /> 
         </Routes>
       </BrowserRouter>
     );
