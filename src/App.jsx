@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Greet from './components/func.components'
 import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import heroImg from   './assets/hero.png'
 import './App.css'
 import Hello from './components/hello'
@@ -20,6 +19,7 @@ class App extends Component {
           <Route path="/hello" element={<Hello />} />
           <Route path="/welcome" element={<Welcome />} />
           <Route path="/message" element={<Message />} /> 
+
         </Routes>
       </BrowserRouter>
     );
