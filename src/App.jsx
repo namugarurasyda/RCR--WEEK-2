@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Greet from './components/func.components'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
@@ -8,21 +10,16 @@ import Hello from './components/hello'
 import Welcome from './components/Welcome'
 import Message from './components/mesaage'
 
-
 class App extends Component {
-  // const [count, setCount] = useState(0)
-
   render() {
     return (
-      <div className="App">
-      <Greet class ="Syda"/> <br />
-      <Welcome class = "Lamine" />
-      <Hello name="AnsuFati" />
-      <Message />
-
-      </div>
-    )
-  } 
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<div>Home</div>} />
+        </Routes>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;
